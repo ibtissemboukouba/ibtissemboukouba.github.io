@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio – Ibtissem Boukouba</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 40px; background: #f7f7f7; }
-    h1 { color: #2c3e50; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #007acc;
+      margin-top: 40px;
+    }
+    .projet {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      background-color: white;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #eee;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
-  <h1>Bienvenue sur mon portfolio !</h1>
-  <p>Je suis Ibtissem Boukouba, développeuse web PHP et intégratrice.</p>
-  <p>Contact : ibtissem.boukouba@gmail.com</p>
+  <header>
+    <h1>Ibtissem Boukouba</h1>
+    <p>Développeuse Web PHP | Intégratrice | WordPress – Laravel – React</p>
+  </header>
+
+  <section>
+    <h2>À propos de moi</h2>
+    <p>
+      Développeuse web passionnée avec plus de 3 ans d’expérience dans le développement PHP, l’intégration HTML/CSS/JS et la création de sites WordPress. 
+      J'interviens aussi bien sur le front-end que le back-end, et je me forme continuellement aux nouvelles technologies comme React, Symfony et Laravel.
+    </p>
+
+    <h2>Mes projets</h2>
+
+    <div class="projet">
+      <h3>🌐 Site vitrine WordPress pour un artisan</h3>
+      <p>Création complète d’un thème personnalisé avec ACF + intégration responsive.</p>
+    </div>
+
+    <div class="projet">
+      <h3>🛒 Boutique PrestaShop personnalisée</h3>
+      <p>Personnalisation du thème + intégration des pages produits et paiements.</p>
+    </div>
+
+    <div class="projet">
+      <h3>🧾 Application To-Do List en React</h3>
+      <p>Développement d’une application simple avec ReactJS et gestion des hooks.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Email : ibtissem.boukouba@gmail.com</p>
+    <p>GitHub : <a href="https://github.com/ibtissemboukouba" target="_blank">ibtissemboukouba</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ibtissem Boukouba – Tous droits réservés
+  </footer>
 </body>
 </html>
+
